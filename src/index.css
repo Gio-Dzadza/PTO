@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url('./assets/fonts/CircularStd-Bold.woff') format('woff'),
+      url('./assets/fonts/CircularStd-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro';
+  src: url('./assets/fonts/SFPRODISPLAYREGULAR.OTF') format('opentype');
+  font-weight: 400;
+}
